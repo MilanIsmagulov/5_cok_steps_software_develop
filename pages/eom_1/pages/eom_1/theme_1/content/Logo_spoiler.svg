@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="204.60161mm"
+   height="34.818153mm"
+   viewBox="0 0 204.60161 34.818153"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   sodipodi:docname="Logo_spoiler.svg"
+   inkscape:export-filename="Logo_spoiler.png"
+   inkscape:export-xdpi="100"
+   inkscape:export-ydpi="100"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.52724989"
+     inkscape:cx="359.41212"
+     inkscape:cy="178.28358"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1272"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <rect
+       x="146.85294"
+       y="136.79451"
+       width="593.44678"
+       height="126.72724"
+       id="rect1897" />
+  </defs>
+  <g
+     inkscape:label="Слой 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-4.0436314,-2.6636328)">
+    <g
+       id="g3675"
+       style="fill:none;fill-opacity:1;stroke:#a50000;stroke-opacity:1">
+      <path
+         style="fill:none;fill-opacity:1;stroke:#a50000;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         d="M 5.1436315,36.381785 H 32.743605 V 12.733624 L 23.773614,3.7636328 H 5.1436314 Z"
+         id="path236"
+         sodipodi:nodetypes="ccccccc" />
+      <g
+         id="g1841"
+         transform="translate(0.7764968,-1.1000001)"
+         style="fill:none;fill-opacity:1;stroke:#a50000;stroke-opacity:1">
+        <path
+           style="fill:none;fill-opacity:1;stroke:#a50000;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+           d="M 8.5727108,15.744531 H 23.940878"
+           id="path1668" />
+        <path
+           style="fill:none;fill-opacity:1;stroke:#a50000;stroke-width:2.11638;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+           d="M 8.5309008,21.172709 H 27.803342"
+           id="path1670" />
+        <path
+           style="fill:none;fill-opacity:1;stroke:#a50000;stroke-width:2.11638;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+           d="M 8.530901,26.559077 H 27.803342"
+           id="path1670-6" />
+        <path
+           style="fill:none;fill-opacity:1;stroke:#a50000;stroke-width:2.11638;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+           d="M 8.5309008,31.945445 H 27.803342"
+           id="path1670-1" />
+      </g>
+    </g>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.65517649,0,0,0.65517649,-178.24277,-88.433297)"
+       id="text1895"
+       style="font-weight:bold;font-size:48px;font-family:Arial;-inkscape-font-specification:'Arial Bold';text-align:end;white-space:pre;shape-inside:url(#rect1897);fill:#a50000;fill-opacity:1;stroke:none;stroke-width:8.31496;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:0;stroke-dasharray:none;paint-order:markers stroke fill"><tspan
+         x="346.68945"
+         y="180.03113"
+         id="tspan968">Разделы лекции</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,377 @@
+@import url('./test.css');
+@import url(./popup.css);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat' , sans-serif;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background: #fff;
+    height: 100vh;
+    width: 100vw;
+}
+
+.theory_for_test {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.popup_image{
+
+    margin: 15px;
+    padding: 25px;
+    border-radius: 35px;
+    text-align: end;
+    width: 520px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.25);
+}
+
+.theory_for_test p{
+    padding: 25px;
+    padding-bottom: 0;
+    padding-top: 0;
+    font-size: 20px;
+}
+
+.popup_image button{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: rgb(2, 94, 161);
+}
+
+.questions span{
+    width: 25px;
+    color: #000;
+    font-size: 40px;
+    font-weight: 900;
+    margin-right: 15px;
+}
+
+
+.step_markers{
+    position: absolute;
+    width: 270px;
+    left: 55px;
+}
+
+
+.main_window{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 25px;
+
+}
+
+
+
+.main_buttons{
+    margin-top: 45px;
+    width: 98%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+
+.black_header{
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 95px;
+    color: white;
+    background-color: black;
+}
+
+.black_header a{
+    color: white;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: solid 2px;
+    border-radius: 35px;
+    width: 300px;
+    margin-left: 25px;
+    transition: all 0.3s;
+}
+
+.black_header a:hover{
+    transition: all 0.3s;
+    background-color: white;
+    color: black;
+}
+
+.left_side{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 80%;
+}
+
+.step_markers{
+    order: -2;
+
+}
+
+.right_side img{
+    max-height: 750px;
+    min-width: 60px;
+    margin-left: 50px;
+}
+
+.right_side{
+    margin-left: 50px;
+}
+
+.left_side_text {
+    font-size: 25px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+}
+.questions_cards_side {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-auto-flow: column;
+}
+
+.questions_cards_side button{
+    font-size: 60px;
+    font-weight: 900;
+    padding: 50px;
+    margin-bottom: 20px;
+    margin-left: calc(10px + 5vh);
+    margin-right: calc(10px + 5vh);
+    border-radius: 25px;
+    border: 0px;
+    cursor: pointer;
+    transition: all 0.3s;
+    width: 210px;
+    height: 170px;
+    position: relative;
+}
+
+.very_easy_questions {
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+}
+
+.very_easy_questions button{
+    background-color: rgb(171, 219, 243);
+    color: rgb(51, 102, 136);
+}
+
+.very_easy_questions button:hover{
+    box-shadow: 0px 0px 23px 11px rgba(171, 219, 243, 0.55);
+    transition: all 0.3s;
+}
+
+.easy_questions {
+    display: flex;
+    flex-direction: column;
+}
+
+.easy_questions button{
+    background-color: rgb(60, 186, 148);
+    color: rgb(250, 250, 250);
+}
+
+.easy_questions button:hover{
+    box-shadow: 0px 0px 23px 11px rgba(60, 186, 148, 0.35);
+    transition: all 0.3s;
+}
+
+.middle_questions {
+    display: flex;
+    flex-direction: column;
+}
+
+.middle_questions button{
+    background-color: rgb(51, 102, 136);
+    color: rgb(250, 250, 250);
+}
+
+.middle_questions button:hover{
+    box-shadow: 0px 0px 23px 11px rgba(51, 102, 136, 0.35);
+    transition: all 0.3s;
+}
+
+.middle_hard_questions {
+    display: flex;
+    flex-direction: column;
+}
+
+.middle_hard_questions button{
+    background-color: rgb(2, 94, 161);
+    color: rgb(250, 250, 250);
+}
+
+.middle_hard_questions button:hover{
+    box-shadow: 0px 0px 23px 11px rgba(2, 94, 161, 0.35);
+    transition: all 0.3s;
+}
+
+.hard_questions {
+    display: flex;
+    flex-direction: column;
+}
+
+.hard_questions button{
+    background-color: rgb(40, 56, 149);
+    color: rgb(250, 250, 250);
+}
+
+.hard_questions button:hover{
+    box-shadow: 0px 0px 23px 11px rgba(40, 56, 149, 0.35);
+    transition: all 0.3s;
+}
+
+.scoring_side {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 25px;
+}
+
+.number_of_points {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px;
+    margin-right: 100px;
+}
+
+.number_of_points p:nth-child(1){
+    margin-right: 25px;
+}
+
+.points {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin: 10px;
+    background-color: rgb(217, 217, 217);
+    padding: 5px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 15px;
+}
+
+.popup{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 0;
+    left: 0;
+    transition: all .3s;
+}
+
+.closed{
+    visibility: hidden;
+    opacity: 0;
+}
+
+.open{
+    visibility: visible;
+    opacity: 100%;
+}
+
+.popup_body {
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100%;
+    padding: 30px 10px;
+}
+
+.text_questions{
+    padding: 35px;
+}
+
+.popup_content{
+    background-color: #fff;
+    color: #000;
+    width: 90vw;
+    padding: 10px;
+    border-radius: 35px;
+}
+
+.close_popup{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.close_popup_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 52px;
+    margin-bottom: 15px;
+    border-radius: 25px;
+}
+
+.close_popup_button:active{
+    background-color: rgb(147, 189, 219);
+}
+
+.close_popup_button img{
+    height: 45px;
+    width: 45px;
+}
+
+.text_questions{
+    font-size: 35px;
+}
+
+.correct_marker{
+    position: absolute;
+    top: -10px;
+    left: 3px;
+}
+
+.correct_marker img{
+    height: 45px;
+    width: 45px;
+}
+
+.second_type_questions{
+    display: flex;
+    margin-top: 25px;
+    width: 95%;
+    justify-content: space-around;
+}
+
+.second_type_questions img{
+    height: 550px;
+    width: 400px;
+}
+
+.check_button.disable_answer_btn{
+    cursor: no-drop;
+    background-color: grey;
+    color: white;
+}
+
+.check_button.disable_answer_btn:active{
+    cursor: no-drop;
+    background-color: grey;
+    color: white;
+}

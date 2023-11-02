@@ -1,0 +1,598 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat','Poppins', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background-color: rgb(222, 235, 247);
+    height: 100vh;
+}
+
+.container{
+    height: 100%;
+}
+
+.hr {
+    margin-left: 25px;
+    width: 20%;
+    border-top: 1px solid rgb(255, 114, 118);
+}
+
+.black_header{
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 95px;
+    color: white;
+    background-color: black;
+    margin-bottom: 30px;
+}
+
+.black_header a{
+    color: white;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: solid 2px;
+    border-radius: 35px;
+    width: 300px;
+    margin-left: 25px;
+}
+
+.black_header a:hover{
+    transition: 0.3s;
+    background-color: white;
+    color: black;
+}
+
+.main_window h2{
+    color: rgb(255, 114, 118);
+    padding: 0px 25px 25px 25px;
+    font-size: 30px;
+}
+
+.second_theme{
+    margin-top: 25px;
+}
+
+.main_window h2 span{
+    color: black;
+    font-weight: 900;
+    font-size: 35px;
+    margin-right: 25px;
+}
+
+.general_side{
+    max-height: 85vh;
+    background-color: rgb(222, 235, 247);
+    border-radius: 50px;
+    padding: 5px;
+    margin: 25px;
+}
+
+.first_part{
+    display: flex;
+    align-items: start;
+    flex-direction: row;
+    justify-content: center;
+    margin: 15px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    height: 83vh;
+    overflow-y: auto;
+    scroll-snap-align: start;
+    padding: 35px;
+    margin: 0px 25px 25px 0px; 
+}
+
+
+
+.text_content p{
+    padding: 15px;
+    font-size: 30px;
+}
+
+.content p{
+    margin: 25px;
+    font-size: 30px;
+}
+
+
+.text_content ol {
+    margin: 25px 25px 25px 60px;
+    font-size: 30px;
+}
+
+
+.text_content ol li{
+    font-weight: 700;
+    padding-top: 10px;
+}
+
+
+.content p span{
+    font-weight: 700;
+}
+
+.second_part{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.second_part img{
+    margin: 5px;
+    height: 400px;
+}
+
+.anim_buttons{
+    display: flex;
+    width: 65vw;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    
+}
+
+.buttons_part{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.buttons_part a{
+    color: white;
+    font-weight: 600;
+}
+
+.anim_buttons img{
+    height: 35px;
+}
+
+.anim_buttons h4{
+    padding: 35px;
+    font-size: 30px;
+}
+
+.anim_buttons a div{
+    display: flex;
+    height: 75px;
+    width: 420px;
+    padding: 15px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px;
+    background-color: rgb(2, 94, 161);
+    border-radius: 25px;
+}
+
+.anim_buttons a div p{
+    font-size: 25px;
+    margin: 5px;
+    margin-left: 10px;
+    background-color: rgb(2, 94, 161);
+}
+
+.third_part{
+    margin: 40px;
+    font-size: 30px;
+}
+
+.third_part h4{
+    color: rgb(2, 94, 161);
+    margin-bottom: 25px;
+}
+
+.third_part ol li{
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+
+.main_viewport::-webkit-scrollbar-track
+{
+	background-color: #dadada;
+	border-radius: 0px;
+    padding: 15px;
+    width: 25px;
+}
+
+.main_viewport::-webkit-scrollbar
+{
+    border-radius: 10px;
+	width: 10px;
+	background-color: #f5f5f500;
+    padding: 15px;
+    width: 15px;
+}
+
+.main_viewport::-webkit-scrollbar-thumb
+{
+	background-color: rgba(0, 0, 0, .2);
+	border-radius: 10px;
+    width: 15px;
+}
+
+.content::-webkit-scrollbar-track
+{   
+    
+    border-radius: 10px;
+	background-color: #dadada;
+	border-radius: 10px;
+    padding: 15px;
+    width: 25px;
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+
+.content::-webkit-scrollbar
+{   
+    
+    border-radius: 10px;
+	width: 10px;
+	background-color: #f5f5f500;
+    padding: 15px;
+    width: 15px;
+}
+
+.content::-webkit-scrollbar-thumb
+{   
+    
+	background-color: rgba(0, 0, 0, .2);
+	border-radius: 10px;
+	background-image: rgba(0, 0, 0, .2);
+    width: 15px;
+}
+
+
+
+.content_img{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+.modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed; /* фиксированное положение */
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.5); /* цвет фона */
+    z-index: 1050;
+    opacity: 0; /* по умолчанию модальное окно прозрачно */
+    -webkit-transition: opacity 200ms ease-in; 
+    -moz-transition: opacity 200ms ease-in;
+    transition: opacity 200ms ease-in; /* анимация перехода */
+    pointer-events: none; /* элемент невидим для событий мыши */
+    margin: 0;
+    padding: 0;
+}
+
+#page_1_img_1 {
+    width: 90%;
+    padding-bottom: 50px;
+}
+
+.modal:target {
+    opacity: 1; /* делаем окно видимым */
+	  pointer-events: auto; /* элемент видим для событий мыши */
+    overflow-y: auto; /* добавляем прокрутку по y, когда элемент не помещается на страницу */
+}
+
+.modal-dialog {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: auto;
+    margin: 10px;
+}
+
+.wrapper_img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#second_color{
+    color: rgb(0, 0, 0);
+}
+
+.modal-content {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 90%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: .5rem;
+    outline: 0;
+    
+    
+
+
+@media (min-width: 576px) {
+    .modal-dialog {
+        max-width: 655px;
+        margin: 30px auto; /* для отображения модального окна по центру */
+    }
+  }
+
+
+}
+@media (max-width: 768px) {
+  .modal-content {
+      -webkit-box-shadow: 0 5px 15px rgba(0,0,0,.5);
+      box-shadow: 0 5px 15px rgba(0,0,0,.5);
+  
+ 
+  }
+}
+
+.modal-header {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: start;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: 1px solid #eceeef;
+}
+
+.modal-header a{
+    font-size: 50px;
+}
+
+.modal-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1.5;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+/* свойства для кнопки "Закрыть" */
+.close {
+    float: right;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .5;
+    text-decoration: none;
+}
+/* свойства для кнопки "Закрыть" при нахождении её в фокусе или наведении */
+.close:focus, .close:hover {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    opacity: .75;
+}
+
+
+
+
+
+.img_partition{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+
+.img_partition img{
+    display: flex;
+    justify-content: center;
+}
+
+.img_partition a img{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 40px;
+    height: auto;
+}
+
+.content_img img{
+    margin: auto;
+    
+}
+
+
+
+.content_img_notmodal{
+    padding: 40px;
+}
+
+.first_scheme {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 0px 25px 25px 25px;
+}
+
+
+.first_scheme img{
+    height: 90%;
+}
+
+
+@media (max-width: 1445px){
+    .black_header{
+        text-align: center;
+        height: 200px;
+        flex-direction: column;
+    }
+
+    .black_header h1{
+        margin-bottom: 35px;
+    }
+
+    .link_backward a:nth-child(1){
+        margin-left: 0;
+    }
+    .second_part{
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 1131px){
+    .content img{
+        margin-left: 0;
+        margin-right: 0;
+        width: 90%;
+    }
+
+    .text_content{
+        margin-top: 25px;
+    }
+
+    .first_part{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 1131px){
+    .content_img{
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 16px;
+        padding-right: 16px;
+        height: auto;
+    }
+
+    .wrapper_img {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .text_content{
+        margin-top: 25px;
+    }
+
+    .content{
+        flex-direction: column;
+    }
+
+    .buttons_part{
+        margin: 0;
+        flex-direction: column;
+    }
+    .anim_buttons a div {
+        margin-bottom: 0;
+    }
+    
+}
+
+@media (max-width: 618px){
+    .black_header{
+        height: 275px;
+    }
+
+    .general_side{
+        border-radius: 10px;
+    }
+
+    .content_img{
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 16px;
+        padding-right: 16px;
+        height: auto;
+    }
+
+    .text_content{
+        margin-top: 25px;
+    }
+
+    .content{
+        flex-direction: column;
+        padding: 15px;
+    }
+    .content h2{
+        font-size: 25px;
+    }
+
+    .content h2 span{
+        font-size: 28px;
+    }
+
+    .text_content p{
+        font-size: 25px;
+    }
+
+    .second_part img{
+        width: 250px;
+    }
+
+    .second_part h4{
+        font-size: 25px;
+        padding: 10px;
+    }
+
+    .buttons_part img{
+        display: none;
+    }
+
+    .anim_buttons a div{
+        width: 300px;
+        border-radius: 25px;
+    }
+    .anim_buttons a div p{
+        font-size: 20px;
+    }
+
+    .third_part h4{
+        font-size: 15px;
+    }
+    .third_part li{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 456px){
+    .text_content p{
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <script src="./script/Sortable.js" defer></script>
+    <script src="./script/create-elements.js" defer></script>
+    <script src="./script/main.js" defer></script>
+    <script src="./script/allQuestions.js" defer></script>
+    <title>Мини игра</title>
+</head>
+<body>
+
+    <header>
+        <div class="header_wrap">
+            <div class="header-title">
+                <h1>Мини игра</h1>
+            </div>
+            <div class="header_links">
+                <a href="../../index.html">На главную</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="main_wrap">
+        <div class="question_wrap">
+            <div class="text_wrap">
+                <p class="welcome_text">Перед вами задания разных уровней сложности. У вас 10 попыток, чтобы получить призовые 1550 очков. Кликните на карточку, чтобы перейти к заданию. Выберите вариант (варианты) ответа и нажмите кнопку «Ответить»</p>
+            </div>
+            <div class="buttons_box">
+                <div class="very_easy_questions">
+                    <div class="question id0">
+                        <button>100</button>
+                    </div>
+                    <div class="question id1">
+                        <button>100</button>
+                    </div>
+                    <div class="question id2">
+                        <button>100</button>
+                    </div>
+                </div>
+                <div class="easy_questions">
+                    <div class="question id3">
+                        <button>150</button>
+                    </div>
+                    <div class="question id4">
+                        <button>150</button>
+                    </div>
+                    <div class="question id5">
+                        <button>150</button>
+                    </div>
+                </div>
+                <div class="middle_questions">
+                    <div class="question id6">
+                        <button>200</button>
+                    </div>
+                    <div class="question id7">
+                        <button>200</button>
+                    </div>
+                    <div class="question id8">
+                        <button>200</button>
+                    </div>
+                </div>
+                <div class="middle_hard_questions">
+                    <div class="question id9">
+                        <button>250</button>
+                    </div>
+                    <div class="question id10">
+                        <button>250</button>
+                    </div>
+                    <div class="question id11">
+                        <button>250</button>
+                    </div>
+                </div>
+                <div class="hard_questions">
+                    <div class="question id12">
+                        <button>300</button>
+                    </div>
+                    <div class="question id13">
+                        <button>300</button>
+                    </div>
+                    <div class="question id14">
+                        <button>300</button>
+                    </div>
+                </div>
+            </div>
+            <div class="score_wrap">
+                <div class="count_point">
+                    <p>Количество очков</p>
+                    <p class="points" id="score">0</p>
+                </div>
+                <div class="count_try">
+                    <p>Количество попыток</p>
+                    <p class="tryes" id="lives">10</p>
+                </div>
+                <input type="button" id="button_results" class="button_results btn_closed" value="Смотреть результаты">
+                    
+                </input>
+            </div>
+        </div>
+        <div class="logo_wrap">
+            <img src="content/logo_of_profi.png" alt="logo">
+        </div>
+    </div>
+
+    <div id="popup_window" class="popup closed"> 
+
+        <div class="popup_main" id="popup_main">
+            <div class="popup_content" id="popup_content">
+                <div class="header_popup">
+                    <div class="popup_result">
+                        <p class="result_theme">Полное название темы</p>
+                        <p class="result_theme_short">Краткое название темы</p>
+                    </div>
+                    <div id="popup_close" class="header_popup_close">
+                        <img src="./content/close.svg" alt="header_popup">
+                    </div>
+                </div>
+                <div class="questions_result">
+                    <div class="questions_result_all">
+                        <div>
+                            Количество тестовых (оцениваемых) заданий:
+                        </div>
+                        <div id="result_count_questions">
+                            30
+                        </div>
+                    </div>
+                    <div class="questions_result_correct">
+                        <div>
+                            Ваш результат:
+                        </div>
+                        <div id="result_users_correct_answered">
+                            30
+                        </div>
+                    </div>
+                    <div class="questions_result_stats">
+                        <div class="result_correct_wrong">
+                            <div class="result_corrects">
+                                <div>
+                                    Количество правильных ответов:
+                                </div>
+                                <div id="result_corrects_num">
+                                    30
+                                </div>
+                            </div>
+                            <div class="result_wrong">
+                                <div>
+                                    Количество неправильных ответов:
+                                </div>
+                                <div id="result_wrongs_num">
+                                    30
+                                </div>
+                            </div>
+                        </div>
+                        <div class="result_diagram" style="--pCorr:30;--pUnCorr:20;--b:10px;--c:rgb(0, 114, 192);;"></div>
+                        <div class="result_corrects">
+                            <div>
+                                Количество вопросов без ответа:
+                            </div>
+                            <div id="result_corrects_num">
+                                30
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
+    src: local('Material Icons'),
+      local('MaterialIcons-Regular'),
+      url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),
+      url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
+      url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
+  }
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat' , 'Material Icons' , sans-serif;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background: #fff;
+}
+
+
+.incorrect {
+    background-color: rgb(255, 144, 144);
+}
+
+.quiz_window p{
+    font-size: 30px;
+
+    color: rgb(255, 114, 118);
+    font-weight: 700;
+}
+
+.quiz_window p span{
+    color: #000;
+    font-size: 40px;
+    font-weight: 900;
+    margin-right: 15px;
+}
+
+.questions{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    margin: 25px;
+}
+
+.questions p{
+    font-size: 30px;
+    padding: 10px;
+    color: rgb(255, 114, 118);
+    font-weight: 700;
+}
+
+.questions input{
+    height: 50px;
+    padding: 15px;
+    font-size: 25px;
+    border-radius: 15px;
+    width: 700px;
+}
+
+.window_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.answers_btn{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.answers_btn form{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    margin-bottom: 50px;
+}
+
+.answers_btn input{
+    font-size: 25px;
+    width: 150px;
+    margin: 25px;
+}
+
+.number_marker img{
+    margin-right: 25px;
+    height: 50px;
+    font-size: 50px;
+    color: #000;
+}
+
+#description_1 {
+    font-size: 25px;
+    margin-right: 25px;
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 800,
+    'GRAD' 0,
+    'opsz' 48
+}
+
+
+.number_marker{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.number_marker p{
+    font-size: 25px;
+    color: #000;
+    padding: 25px;
+    border-left: 3px solid #000;
+}
+
+.step_marker{
+    color: rgb(191, 191, 191);
+    margin-left: 25px;
+}
+
+
+.step_marker_and_buttons{
+    margin-left: 25px;
+    margin-right: 25px;
+    align-items: flex-end;
+    justify-content: space-between;
+    display: flex;
+}
+
+.main_buttons button{
+    height: 50px;
+    width: 150px;
+    margin-left: 10px;
+    border: 0;
+    background: rgb(0, 114, 192);
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 35px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.main_buttons button:active{
+    background: rgb(40, 142, 211);
+}
+
+.answers_btn form div{
+    display: flex;
+    align-items: center;
+    border: solid 0px #00000080;
+    width: 1000px;
+    margin: 15px;
+    height: 120px;
+    border-radius: 25px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.25);
+    
+}
+
+.answers_btn form div input{
+    min-height: 40px;
+    min-width: 40px;
+    max-height: 41px;
+    max-width: 41px;
+}
+
+.answers_btn form{
+    border-radius: 35px;
+    width: 1030px;
+}
+
+.answers_btn form div p{
+    font-size: 25px;
+    font-weight: 600;
+    color: #000;
+}
+
+.correct{
+    cursor: no-drop;
+    transition: all 0.3s;
+    background-color: rgb(168, 255, 168);
+}
+
+.incorrect{
+    cursor: no-drop;
+    transition: all 0.3s;
+    background: rgb(255, 144, 144);
+}
+
+.correct input{
+    cursor: no-drop;
+}
+
+.incorrect input{
+    cursor: no-drop;
+}
+
+.answer_div img{
+    margin-left: 25px;
+    height: 40px;
+}
+
+@media (max-width: 1180px) {
+    body{
+        width: 100%;
+
+    }
+
+    .answers_btn form div {
+        width: 700px;
+    }
+    .choices_div2{
+        width: 700px;
+    }
+    .question_part #question {
+        padding: 10px;
+        margin: 10px;
+        margin-top: 10px;
+    }
+    .button_part {
+        margin-top: 5px;
+        padding-bottom: 0px;
+    }
+
+    .step_marker_and_buttons {
+        width: 95vw;
+        padding-bottom: 50px;
+        
+    }
+
+    .main_buttons button {
+        width: 130px;
+    }
+}
+
+.step_marker_and_buttons{
+    margin-top: 60px;
+    padding-bottom: 50px;
+    width: 96%;
+}

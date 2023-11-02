@@ -1,0 +1,66 @@
+.popup_text{
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.popup_content_header{
+    color: #ff7175;
+    margin: 15px;
+    margin-left: 0px;
+}
+
+.popup_tex_content{
+    margin-left: 0px;
+}
+
+.key_word_text{
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: solid 1px;
+}
+
+.key_word_text span{
+    font-weight: 800;
+}
+
+.popup_method_list li{  
+    margin: 15px;
+}
+
+.popup_method_list li ul{
+    margin-left: 25px;
+}
+
+.popup_method_list li::marker{
+    font-size: 30px;
+    color: rgb(0, 112, 192);
+}
+
+.list_second_level li{
+    font-size: 18px;
+    list-style-type: none;
+}
+
+.list_second_level > li::before{
+    content: '\2014';
+    position: absolute;
+    margin-left: -40px;
+}
+
+.popup_text{
+    padding: 25px;
+    padding-left: 40px;
+    padding-bottom: 0;
+    margin-bottom: 15px;
+}
+
+.popup_text li{
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.popup_text ol li::marker{
+    font-size: 30px;
+    font-weight: 800;
+}

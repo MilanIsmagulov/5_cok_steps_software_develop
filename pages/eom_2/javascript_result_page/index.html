@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./script/main.js" defer></script>
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Страница итогов</title>
+</head>
+<body>
+    <div class="main_window">
+        <!-- Черный Заголовок -->
+        <div class="black_header">
+            <h1>
+                Отчет о выполнении <span class="disabled_button">контрольного</span> задания
+            </h1>
+            <div class="links_black_header">
+                <a href="../../../index.html">На главную</a>
+                <a href="../../../new_material/page_new_mat.html" class="disabled_button">Назад</a>
+            </div>
+            
+        </div>
+        <!-- Часть с выводом вопроса -->
+        <div class="question_part">
+            <div id="question">
+                Тема
+                <p>Основные этапы разработки программного обеспечения</p>
+            </div>
+            <div class="number_marker disabled_button">
+                <img src="./content/description.svg" alt="description">
+                <p>1/10</p>
+            </div>
+        </div>
+        <!-- Часть с выводом ответа -->
+        <div class="first_row">
+            <div class="answers_part first">
+                1. Количество тестовых (оцениваемых) заданий: <span id="place_question_number"></span>
+            </div>
+            <div class="answers_part first">
+                2. Ваш результат: <span id="place_question_percent"></span>
+            </div>
+            <div class="answers_part">
+                <div class="correct_answ">
+                    Количество правильных ответов:
+                    <p id="result_place_1">
+                        0
+                    </p>
+                </div>
+                <div id="answer_diagram_1" class="pie animate no-round" ></div>
+                <div class="correct_answ">
+                    Количество неправильных ответов:
+                    <p id="result_place_2">
+                        0
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- Часть с кнопками управления -->
+        <div class="button_part">
+            <div class="step_marker">
+
+            </div>
+            <div class="button_side">
+                <button class="disabled_button">Назад</button>
+                <button onclick="checkAnswer()" id="check_test_button" class="disabled_button">Ответить</button>
+                <button id="reload_test_button" onclick="location.href='../javascript_quiz_app_1/index.html'">Повторить</button>
+                <button id="next_test_button" class="disabled_button">Далее</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
