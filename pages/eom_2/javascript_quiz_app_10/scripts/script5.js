@@ -15,7 +15,7 @@ let numberOfEOM = 2;
 
 let textOfQuestionPlace = document.querySelector('#question_number_1')
 
-textOfQuestionPlace.innerHTML = '<p>' + '<span>' + numberOfQuestion +  '. ' + '</span>'  + 'Сопоставьте каждую фазу жизненного цикла программного обеспечения с ее описанием:' + '</p>'
+textOfQuestionPlace.innerHTML = '<p>' + '<span>' + numberOfQuestion +  '. ' + '</span>'  + 'Соотнесите название вспомогательного этапа разработки ПО и его описание:' + '</p>'
 
 let stepMarkerPlace = document.querySelector('.step_marker');
 console.log("stepMarkerPlace")

@@ -58,7 +58,7 @@ body{
 }
 
 .quiz_window p{
-    font-size: 30px;
+    font-size: clamp(15px,2vw,30px);
     padding: 25px;
     color: rgb(255, 114, 118);
     font-weight: 700;

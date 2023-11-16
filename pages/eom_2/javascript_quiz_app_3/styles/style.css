@@ -55,6 +55,9 @@ body{
     margin-right: 35px;
 }
 
+.black_header h1{
+    width: 60%;
+}
 
 .black_header{
     padding: 30px;

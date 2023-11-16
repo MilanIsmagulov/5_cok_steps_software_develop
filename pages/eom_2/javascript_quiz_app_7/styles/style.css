@@ -54,6 +54,9 @@ body{
     margin-left: 35px;
     margin-right: 35px;
 }
+.black_header h1{
+    width: 60%;
+}
 
 
 .black_header{

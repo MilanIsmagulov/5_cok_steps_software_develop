@@ -117,7 +117,6 @@
 .popup_content {
     background-color: white;
     color: black;
-    width: clamp(300px,80vw,1800px);
     height: clamp(400px,70vh,1000px);
     border-radius: 25px;
     padding: 25px;

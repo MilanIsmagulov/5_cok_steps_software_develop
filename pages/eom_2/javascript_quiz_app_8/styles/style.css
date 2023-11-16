@@ -278,6 +278,18 @@ input:disabled {
     .black_header a{
         font-size: 15px !important;
     }
+    .main_buttons button{
+        font-size: 20px !important;
+    }
+    .quiz_window p span{
+        font-size: 35px !important;
+    }
+    #paragrph_for_po span{
+        font-size: clamp(20px,3vw,30px) !important;
+    }
+    .popup_text h3{
+        font-size: 24px !important;
+    }
 }
 
 .theory_eom{
