@@ -33,9 +33,13 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 95px;
     color: white;
     background-color: black;
+}
+
+.answers_part{
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 .black_header a{
@@ -46,8 +50,15 @@ body{
     border: solid 2px;
     border-radius: 35px;
     width: 300px;
-    margin-left: 25px;
     transition: all 0.3s;
+}
+
+.black_header h1{
+    width: 70%;
+}
+
+.links_black_header{
+    min-width: 165px !important;
 }
 
 .black_header a:hover{
@@ -127,7 +138,7 @@ body{
 
 .correct_answ{
     display: flex;
-    
+    font-weight: 500;
 }
 
 
@@ -153,7 +164,6 @@ body{
 
 .button_part{
     display: flex;
-    position: absolute;
     bottom: 35px;
     width: 95vw;
     padding: 10px;
@@ -207,4 +217,23 @@ body{
 
 .correct_answ{
     font-size: 25px;
+}
+
+
+
+@media (max-width: 820px) {
+    .answers_part:last-child{
+        padding: 25px;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .answers_part{
+
+        justify-content: space-between;
+    }
+    .button_part{
+        margin: 0;
+        padding: 25px;
+    }
 }

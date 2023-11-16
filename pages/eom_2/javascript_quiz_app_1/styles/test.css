@@ -82,7 +82,7 @@ body{
 }
 
 .questions p{
-    font-size: 30px;
+    font-size: clamp(25px,2vw,35px) !important;
     padding: 10px;
     color: rgb(255, 114, 118);
     font-weight: 700;
@@ -161,13 +161,10 @@ body{
 
 .step_marker{
     color: rgb(191, 191, 191);
-    margin-left: 25px;
 }
 
 
 .step_marker_and_buttons{
-    margin-left: 25px;
-    margin-right: 25px;
     align-items: flex-end;
     justify-content: space-between;
     display: flex;
@@ -246,41 +243,6 @@ body{
     height: 40px;
 }
 
-@media (max-width: 1180px) {
-    body{
-        width: 100%;
-
-    }
-
-    .answers_btn form div {
-        width: 700px;
-    }
-    .choices_div2{
-        width: 700px;
-    }
-    .question_part #question {
-        padding: 10px;
-        margin: 10px;
-        margin-top: 10px;
-    }
-    .button_part {
-        margin-top: 5px;
-        padding-bottom: 0px;
-    }
-
-    .step_marker_and_buttons {
-        width: 95vw;
-        padding-bottom: 50px;
-        
-    }
-
-    .main_buttons button {
-        width: 130px;
-    }
-}
-
 .step_marker_and_buttons{
-    margin-top: 60px;
-    padding-bottom: 50px;
-    width: 96%;
+    padding: 10vh 3vw 25px 3vw;
 }
