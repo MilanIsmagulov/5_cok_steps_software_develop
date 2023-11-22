@@ -107,7 +107,7 @@ body{
 }
 
 .popup_bottom input[type=submit]{
-    height: 2.5vw;
+    height: 3vw ;
     width: 8vw;
     border: 0;
     background: rgb(0, 114, 192);
@@ -117,7 +117,20 @@ body{
     border-radius: 10vh;
     cursor: pointer;
     transition: all 0.3s;
-    
+    padding: 5px !important;
+}
+
+.popup_bottom input{
+    height: clamp(40px,3vh,70px) !important;
+    width: clamp(120px,3vw,160px) !important;
+    border: 0;
+    background: rgb(0, 114, 192);
+    font-size: clamp(12px,1vw,25px) !important;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 10vh;
+    cursor: pointer;
+    transition: all 0.3s;
 }
 
 .popup_bottom{
@@ -128,8 +141,8 @@ body{
 }
 
 .popup_bottom p{
-    margin-left: 50px;
-    font-size: 1vw;
+    margin-left: 2vw;
+    font-size: clamp(20px,1vw,25px) !important;
     color: #05050580 !important;
     font-weight: 600;
 }
@@ -218,14 +231,55 @@ body{
 }
 
 .question_type_0_answers input[type=radio]{
-    outline-color: rgb(255 89 93);
-    background: red;
-    accent-color: rgb(255 89 93);
-    height: 4vh;
-    margin-right: 1vw;
-    margin-left: 2vw;
-    width: 3vw;
+    width: 42px;
+    height: 40px;
+    box-sizing: border-box;
+    appearance: none;
+    background: #ffffff00;
+    margin-right: 15px !important;
+    outline: 0.15vw solid rgb(255 89 93);
+    border: 0.4vw solid white;
+    border-radius: 100px;
+    margin-left: 3vh;
     pointer-events: none;
+    -webkit-border-radius: 100rem
+}
+
+.question_type_0_answers input{
+    width: 1.8vw;
+    height: 1.8vw;
+    box-sizing: border-box;
+    appearance: none;
+    background: #ffffff00;
+    margin-right: 15px !important;
+    outline: 0.15vw solid rgb(255 89 93);
+    border: 0.4vw solid white;
+    border-radius: 100px;
+    margin-left: 3vh;
+    pointer-events: none;
+    -webkit-border-radius: 100rem
+}
+
+
+
+.question_type_0_answers input:checked{
+    accent-color: red;
+    background-color: red;
+    background-color: rgb(255, 114, 118);
+}
+
+.question_type_1_answers input{
+    width: 1.8vw;
+    height: 1.8vw;
+    box-sizing: border-box;
+    appearance: none;
+    background: white;
+    outline: 0.15vw solid rgb(255 89 93);
+    border: 0.4vw solid white;
+    border-radius: 0px;
+    margin-left: 3vh;
+    pointer-events: none;
+    -webkit-border-radius: 2rem
 }
 
 .question_type_0_answers p{

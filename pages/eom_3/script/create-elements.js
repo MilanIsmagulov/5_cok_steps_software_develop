@@ -835,7 +835,7 @@ function DnDHandlers_Type_4(argument) {
 
     new Sortable(row, {
         group: 'shared',
-        swap: true,
+        swap: false,
         swapClass: "highlight",
         animation: 150,
     });
