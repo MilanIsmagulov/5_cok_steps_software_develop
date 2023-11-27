@@ -213,7 +213,7 @@ a{
 .main_content_name{
     margin-top: 25px;
     margin-left: 150px;
-    font-size: 3.25vw;
+    font-size: calc(3vw);
     font-weight: 900;
 }
 
@@ -460,16 +460,6 @@ a{
     }
 }
 
-@media (max-width: 520px){
-    .popup_text{
-        flex-direction: column;
-    }
-    .popup_image{
-        margin-left: 0;
-        margin-top: 15px;
-    }
-}
-
 /* Popup window */
 
 .popup {
@@ -497,7 +487,7 @@ a{
 .popup_content {
     background-color: white;
     color: black;
-    max-width: 700px;
+    max-width: 1000px;
     border-radius: 15px;
     padding: 25px;
 }
@@ -532,6 +522,16 @@ a{
 .popup:target{
     opacity: 1;
     visibility: visible;
+}
+
+@media (max-width: 520px){
+    .popup_text{
+        flex-direction: column;
+    }
+    .popup_image{
+        margin-left: 0;
+        margin-top: 15px;
+    }
 }
 
 .main_viewport::-webkit-scrollbar-track

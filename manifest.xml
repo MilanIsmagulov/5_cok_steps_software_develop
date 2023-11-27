@@ -1,0 +1,29 @@
+<course>
+<title>ФГОС СПО 09.02.07 МДК.01.01 Основные этапы разработки программного обеспечения</title>
+<description/>
+<language>ru</language>
+<!-- Что это? -->
+<code>301121133</code> 
+<!-- Что это? -->
+<fgos_title>ФГОС СПО 09.02.07</fgos_title>
+<fgos_text>Информационные системы и программирование</fgos_text>
+<mdk_title>МДК.01.01</mdk_title>
+<mdk_text>Разработка программных модулей</mdk_text>
+<structure>
+<item0>
+<name>Основные этапы разработки программного обеспечения
+</name>
+<code>1_eom</code>
+</item0>
+<item1>
+<name>Основные этапы разработки программного обеспечения
+</name>
+<code>2_eom</code>
+</item1>
+<item2>
+<name>Основные этапы разработки программного обеспечения
+</name>
+<code>3_eom</code>
+</item2>
+</structure>
+</course>
